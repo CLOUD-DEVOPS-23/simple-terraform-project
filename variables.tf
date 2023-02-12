@@ -3,10 +3,7 @@ variable "region" {
   default = "us-east-1"
 }
 
-variable "access_key" {
+variable "assume_role_arn" {
   type = string
 }
 
-variable "secret_key" {
-  type = string
-}
